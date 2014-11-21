@@ -328,61 +328,61 @@ tr.even {background-color: transparent;}
 table.list th {background-color: transparent;}*/
 
 
-/*Immediate*/
-tr.odd.priority-highest, table.list tbody tr.odd.priority-highest:hover { color: #900; font-weight: bold; }
-tr.odd.priority-highest { background: #ffc4c4; }
-tr.even.priority-highest, table.list tbody tr.even.priority-highest:hover { color: #900; font-weight: bold; }
-tr.even.priority-highest { background: #ffd4d4; }
-tr.priority-highest a, tr.priority-highest:hover a { color: #900; }
-tr.odd.priority-highest td, tr.even.priority-highest td { border-color: #ffb4b4; }
+/*Immediately*/
+tr.odd.priority-5, table.list tbody tr.odd.priority-5:hover { color: #900; font-weight: bold; }
+tr.odd.priority-5 { background: #ffc4c4; }
+tr.even.priority-5, table.list tbody tr.even.priority-5:hover { color: #900; font-weight: bold; }
+tr.even.priority-5 { background: #ffd4d4; }
+tr.priority-5 a, tr.priority-5:hover a { color: #900; }
+tr.odd.priority-5 td, tr.even.priority-5 td { border-color: #ffb4b4; }
 
 /*Urgent*/
-tr.odd.priority-high2, table.list tbody tr.odd.priority-high2:hover { color: #900; font-weight: bold; }
-tr.odd.priority-high2 { background: #ffc4c4; }
-tr.even.priority-high2, table.list tbody tr.even.priority-high2:hover { color: #900; font-weight: bold; }
-tr.even.priority-high2 { background: #ffd4d4; }
-tr.priority-high2 a, tr.priority-high2:hover a { color: #900; }
-tr.odd.priority-high2 td, tr.even.priority-high2 td { border-color: #ffb4b4; }
+tr.odd.priority-4, table.list tbody tr.odd.priority-4:hover { color: #900; font-weight: bold; }
+tr.odd.priority-4 { background: #ffc4c4; }
+tr.even.priority-4, table.list tbody tr.even.priority-4:hover { color: #900; font-weight: bold; }
+tr.even.priority-4 { background: #ffd4d4; }
+tr.priority-4 a, tr.priority-4:hover a { color: #900; }
+tr.odd.priority-4 td, tr.even.priority-4 td { border-color: #ffb4b4; }
 
 /*High*/
-tr.odd.priority-high3, table.list tbody tr.odd.priority-high3:hover { color: #900; }
-tr.odd.priority-high3 { background: #ffc4c4; }
-tr.even.priority-high3, table.list tbody tr.even.priority-high3:hover { color: #900; }
-tr.even.priority-high3 { background: #ffd4d4; }
-tr.priority-high3 a, tr.priority-high3:hover a { color: #900; }
-tr.odd.priority-high3 td, tr.even.priority-high3 td { border-color: #ffb4b4; }
+tr.odd.priority-3, table.list tbody tr.odd.priority-3:hover { color: #900; }
+tr.odd.priority-3 { background: #ffc4c4; }
+tr.even.priority-3, table.list tbody tr.even.priority-3:hover { color: #900; }
+tr.even.priority-3 { background: #ffd4d4; }
+tr.priority-3 a, tr.priority-3:hover a { color: #900; }
+tr.odd.priority-3 td, tr.even.priority-3 td { border-color: #ffb4b4; }
 
 /*Normal*/
-tr.odd.priority-default, table.list tbody tr.odd.priority-default:hover { color: #900; }
-tr.odd.priority-default { background: #fee; }
-tr.even.priority-default, table.list tbody tr.even.priority-default:hover { color: #900; }
-tr.even.priority-default { background: #fff2f2; }
-tr.priority-default a, tr.priority-default:hover a { color: #900; }
-tr.odd.priority-default td, tr.even.priority-default td { border-color: #fcc; }
+/*tr.odd.priority-2, table.list tbody tr.odd.priority-2:hover { color: #900; }
+tr.odd.priority-2 { background: #fee; }
+tr.even.priority-2, table.list tbody tr.even.priority-2:hover { color: #900; }
+tr.even.priority-2 { background: #fff2f2; }
+tr.priority-2 a, tr.priority-2:hover a { color: #900; }
+tr.odd.priority-2 td, tr.even.priority-2 td { border-color: #fcc; }*/
 
 /*Low*/
-tr.odd.priority-lowest, table.list tbody tr.odd.priority-lowest:hover { color: #559; }
-tr.odd.priority-lowest { background: #eaf7ff; }
-tr.even.priority-lowest, table.list tbody tr.even.priority-lowest:hover { color: #559; }
-tr.even.priority-lowest { background: #f2faff; }
-tr.priority-lowest a, tr.priority-lowest:hover a { color: #559; }
-tr.odd.priority-lowest td, tr.even.priority-lowest td { border-color: #add7f3; }
+tr.odd.priority-1, table.list tbody tr.odd.priority-1:hover { color: #559; }
+tr.odd.priority-1 { background: #eaf7ff; }
+tr.even.priority-1, table.list tbody tr.even.priority-1:hover { color: #559; }
+tr.even.priority-1 { background: #f2faff; }
+tr.priority-1 a, tr.priority-1:hover a { color: #559; }
+tr.odd.priority-1 td, tr.even.priority-1 td { border-color: #add7f3; }
 
 /* Private issues */
 table.list tr.private,
 table.list tr.private a,
 table.list tr.private:hover,
 table.list tr.private:hover a,
-tr.odd.priority-lowest.private, table.list tbody tr.odd.priority-lowest.private:hover,
-tr.even.priority-lowest.private, table.list tbody tr.even.priority-lowest.private:hover,
-tr.odd.priority-default.private, table.list tbody tr.odd.priority-default.private:hover,
-tr.even.priority-default.private, table.list tbody tr.even.priority-default.private:hover,
-tr.odd.priority-high3.private, table.list tbody tr.odd.priority-high3.private:hover,
-tr.even.priority-high3.private, table.list tbody tr.even.priority-high3.private:hover,
-tr.odd.priority-high2.private, table.list tbody tr.odd.priority-high2.private:hover,
-tr.even.priority-high2.private, table.list tbody tr.even.priority-high2.private:hover,
-tr.odd.priority-highest.private, table.list tbody tr.odd.priority-highest.private:hover,
-tr.even.priority-highest.private, table.list tbody tr.even.priority-highest.private:hover
+tr.odd.priority-1.private, table.list tbody tr.odd.priority-1.private:hover,
+tr.even.priority-1.private, table.list tbody tr.even.priority-1.private:hover,
+tr.odd.priority-2.private, table.list tbody tr.odd.priority-2.private:hover,
+tr.even.priority-2.private, table.list tbody tr.even.priority-2.private:hover,
+tr.odd.priority-3.private, table.list tbody tr.odd.priority-3.private:hover,
+tr.even.priority-3.private, table.list tbody tr.even.priority-3.private:hover,
+tr.odd.priority-4.private, table.list tbody tr.odd.priority-4.private:hover,
+tr.even.priority-4.private, table.list tbody tr.even.priority-4.private:hover,
+tr.odd.priority-5.private, table.list tbody tr.odd.priority-5.private:hover,
+tr.even.priority-5.private, table.list tbody tr.even.priority-5.private:hover
 { color: #FF0000; font-weight: bold; }
 
 /* Buttons */
